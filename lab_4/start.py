@@ -19,8 +19,8 @@ if __name__ == '__main__':
 
     # SCORE 4
     print('the number of letters in the storage:', storage.get_letter_count())
-    print('top 5 with lowest id:', list(storage.storage.keys())[:5])
-    print('top 5 with highest id:', list(storage.storage.keys())[-5:])
+    print('5 with lowest id:', list(storage.storage.keys())[:5])
+    print('5 with highest id:', list(storage.storage.keys())[-5:])
 
     # SCORE 6
     encoded = encode_corpus(storage, TOKENIZED_TEXT)
